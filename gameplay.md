@@ -3,6 +3,7 @@ SPACECASES RPG
 
 This system is intended to be based off of the Divinity: Original Sin Action Point system for combat/actions. It uses a running total of action "points" which are used in any time pressure situations and also employs percentage chances for dictating action success. The idea is to create a sense of balance and easy crossover between classic character archetypes while making a modern combat system that breaks out of the *one turn, one action* mold.
 
+
 ### Character Base Statistics:
 Every character will have core statistics that are drawn from classic systems that dictate primary capabilities. They are as follows:
 
