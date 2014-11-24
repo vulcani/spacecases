@@ -50,30 +50,49 @@ Whenever a character wishes to initiate aggressive action, an initiative round e
 On Your Turn:
 Begin your turn by increasing your AP by your AP generation (6 at s of 5, +/- 1 for every +/- 2 Speed) after all relevant modifiers. Mark this total on a die. Perform any desired actions in order, marking down the running AP total as you do so. Declare the end of your turn and maintain banked AP on the die for tracking purposes. You may bank up to (6 + Wisdom) AP.
 
+### Ranged Attack
+
+to_hit: 40% + 10% * AimStacks + 5% * Awareness
+
+Damage: Weapon_damage
+
+Manuvers any player may do related to ranged attacks:
+* Aim - 2AP - You choose a foe in range to be your target and take aim at them. You gain 1 aim stack against them. This improves your aim and interacts with various abilites. If your target moves, you move, you gain aim stacks against another target or your target is under total cover, lose all aim stacks againt that target.
+
+### Melee Attack
+
+to_hit: 50% + 5%*Brawn
+
+Damage:
+
+* OneHanded: Weapon_dmg + Brawn
+* TwoHanded: Weapon_dmg + 1.5*Brawn (rounded down)
+
+
 ### Status Effects List:
 * Stunned-You lose all AP generation for the stunned turns, and you may not perform any actions during your turn. You lose your dodge modifier while stunned.
 
-* Crippled-You lose your dodge modifier until the injury is fixed, have -2 Speed and cannot run.
+* Crippled - You lose your dodge modifier until the injury is fixed, have -2 Speed and cannot run.
 
-* Knocked Down-You lose your dodge modifier while knocked down, and must spend 3 AP to sho up on your turn. Standing up incurs melee attacks of opportunity and may be especially difficult, if the person is wearing heavy armor or something similar. This status cannot be saved against on a later turn.
+* Knocked Down - You lose your dodge modifier while knocked down, and must spend 3 AP to sho up on your turn. Standing up incurs melee attacks of opportunity and may be especially difficult, if the person is wearing heavy armor or something similar. This status cannot be saved against on a later turn.
 
 * Slowed-You lose one third of your AP generation each turn while slowed, rounded to the nearest. Your movement also costs double the AP.
 
-* Weakened-You have -2 Brawn, -1 Endurance and -2 Awareness.
+* Weakened 
 
-* Broken Limb-The limb may not be used until fixed, and you lose 20% of your current health and max health, rounded down.
+* Broken Limb - The limb may not be used until fixed, and you lose 20% of your current health and max health, rounded down.
 
-* Bleeding-The wound bleeds for the specified amount every turn at the beginning of your turn until patched. Double currently held bleeding stacks if you use an adrenaline round.
+* Bleeding - The wound bleeds for the specified amount every turn at the beginning of your turn until patched. Double currently held bleeding stacks if you use an adrenaline round.
 
-* Charmed-You are controlled by an enemy on your normal turn. They do not get knowledge of your abilities and only have knowledge of currently held equipment. They may not cause any direct harm to you during these turns.
+* Charmed - You are controlled by an enemy on your normal turn. They do not get knowledge of your abilities and only have knowledge of currently held equipment. They may not cause any direct harm to you during these turns.
 
-* Fatigued-You have Awareness -2, Speed -2, and Wisdom -2
+* Fatigued - You have Awareness -2, Speed -2, and Wisdom -2
 
-* Flanked-You are 10% easier to hit from anyone who is flanking you. Note that cover is directional and may affect only one of your attackers.
+* Flanked - You are 10% easier to hit from anyone who is flanking you. Note that cover is directional and may affect only one of your attackers.
 
-* Dazed-You may not perform any aggressive actions/abilities and may not bank AP. You lose all of your banked AP when first dazed. On future turns, they may make a new mental save at the beginning of their turn to eliminate the effect.
+* Dazed - You may not perform any aggressive actions/abilities and may not bank AP. You lose all of your banked AP when first dazed. On future turns, they may make a new mental save at the beginning of their turn to eliminate the effect.
 
-* Blind-You cannot receive any visual information, lose your dodge modifier and must make an save of 75% - 5% x Awareness after deciding your actions for a turn or be reoriented randomly via D8. You may still choose to attack, but you must choose a vector of attack and have -20% chance to hit versus enemies.
+* Blind - You cannot receive any visual information, lose your dodge modifier and must make an save of 75% - 5% x Awareness after deciding your actions for a turn or be reoriented randomly via D8. You may still choose to attack, but you must choose a vector of attack and have -20% chance to hit versus enemies.
 
-* Feared-On each turn, roll 1D6: 1-2:Fight frantically 3-4:Flee 5:Cower 6:Surrender
+* Feared - On each turn, roll 1D6: 1-2:Fight frantically 3-4:Flee 5:Cower 6:Surrender
 
