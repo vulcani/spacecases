@@ -33,9 +33,10 @@ Ranged Weapons
 
 - Assault Rifle-30 credits, 3 AP three rounds, 5 AP burst (ten shots), Range 50 ft, 30 shot clip reload 3 AP-Deals 3D8 piercing damage for 3 rounds, burst allows attack at -20% for additional targets within ten feet for 2D8.
 
-- Sniper Rifle-50 credits, 4 AP, Range 20 ft (1000 ft if braced), 8 round clip, reload 10 AP-5D10 piercing
+- Sniper Rifle - 50 credits, 4 AP, Range 20 ft (1000 ft if braced), 8 round clip, reload 10 AP
+	- At X aim stacks, deals x*10 + (5-x)d10. (need a prettier way of saying this)
 
-- Flamethrower-40 credits, 4 AP, Range 20 ft (max range 40 ft), 10 spray tank, reload 10 AP-Cover two adjacent squares with flame, dealing 3D6 if it hits. On hit, targets must save 80% - dodge modifier to avoid starting on fire, which burns for 2D6 on the beginning of their next 3 turns. They may spend 3 AP to attempt another save during their turn(s).
+- Flamethrower - 40 credits, 4 AP, Range 20 ft (max range 40 ft), 10 spray tank, reload 10 AP-Cover two adjacent squares with flame, dealing 3D6 if it hits. On hit, targets must save 80% - dodge modifier to avoid starting on fire, which burns for 2D6 on the beginning of their next 3 turns. They may spend 3 AP to attempt another save during their turn(s).
 
 - RPG-50 credits, 6 AP, Range 30 ft, 1 shot (5 credits each), reload 6 AP-Has -20 % chance to hit, missing by up to 10% causes 5 ft random walk of blast zone, up to 20% causes two 5ft random walks outward(roll d4, do not move inward), etc. Deals 7D10 heat, 5D10 Piercing damage at center of blast zone, 4D10 heat, 3D10 Piercing if within one square, 2D10 heat, 2D10 Piercing if within two squares. Requires an Academics rank to use, otherwise additional -20% to hit.
 
