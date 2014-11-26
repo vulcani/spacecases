@@ -13,7 +13,6 @@ Melee Weapons
 
 ### 2-Handed
 
-
 - DC cutting tool-40 credits, 4 AP-deals 3D10 + Brawn slashing damage and bleeding 1. Deals double damage to structures. Requires battery power. Hit chance is -10%.
 
 - Large Bludgeon-10 credits, 3 AP-deals 3D6 + Brawn blunt damage.
@@ -34,7 +33,7 @@ Ranged Weapons
 - Assault Rifle-30 credits, 3 AP three rounds, 5 AP burst (ten shots), Range 50 ft, 30 shot clip reload 3 AP-Deals 3D8 piercing damage for 3 rounds, burst allows attack at -20% for additional targets within ten feet for 2D8.
 
 - Sniper Rifle - 50 credits, 4 AP, Range 20 ft (1000 ft if braced), 8 round clip, reload 10 AP
-	- At X aim stacks, deals x*10 + (5-x)d10. (need a prettier way of saying this)
+	- At X aim stacks, deals x*10 + (5-x)d10. (!!!need a prettier way of saying this!!!)
 
 - Flamethrower - 40 credits, 4 AP, Range 20 ft (max range 40 ft), 10 spray tank, reload 10 AP-Cover two adjacent squares with flame, dealing 3D6 if it hits. On hit, targets must save 80% - dodge modifier to avoid starting on fire, which burns for 2D6 on the beginning of their next 3 turns. They may spend 3 AP to attempt another save during their turn(s).
 
@@ -76,7 +75,21 @@ Protective Gear
 
 - PES Field Armor (Heavy)-80 credits, batteries 6 credits, requires 1 rank of Academics -Electrical field negates first 35 HP of damage from ranged attacks. Battery must be swapped out manually to reestablish field for 8 AP. This action provokes attacks of opportunity and requires both hands. Field does not work against melee attacks. Reduces Speed by 1 and dodge modifier by 5%.
 
+**Kenetic Shield** - 20cr
 
+20cr - Hold in one hand. At the end of each turn, must be faced in one of the 4 diagonal directions. Any foe standing that direction from you is shielded (see diagram: you at !, pointing the shield NorthEast. All Xs are positions you are shielded from)
+
+Ranged attacks (???that would hit???) from shielded foes are negated completely, including status effects. After such an attack has been negated, the shield is 'popped' and has no effect until the beginning of your next turn, at such time it automaticly powers back up to normal effect.
+
+		..XXXXX
+		..XXXXX
+		..XXXXX
+		..!XXXX
+		.......
+
+**Other stuff**
+
+		
 First Aid/Combat Use Equipment
 ------------------------------
 
